@@ -13,10 +13,19 @@ while (i <= 100) {
     i++;
 }
 
-
+// task with math 
 let o = 1;
 while (o <=100) {
     console.log(o);
-    o = o+2;
+    o = o + 2;
 }
      
+let sum = 0;
+let num = 1;
+while (num <= 100) {
+    if (num % 2 !== 0) {
+        sum = sum + num;
+    }
+    num++;
+}
+console.log(sum)
